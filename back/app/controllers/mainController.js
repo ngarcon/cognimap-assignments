@@ -5,7 +5,7 @@ const path = require('path');
 const mainController = {
 
     getMain: (req, res)=> {
-        res.send('index.html'); 
+        res.sendFile(path.resolve(__dirname, '../../index.html')); 
     }, 
 
     sayHello: (req, res)=> {
