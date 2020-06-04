@@ -1,6 +1,7 @@
 .Card {
-    padding: 2em 2em 0 2em;
+    padding: 2em 2em 0px 2em;
     border: 1px solid #aaa;
     width: 500px; 
+    height: ;
     margin: 0.6em; 
 }

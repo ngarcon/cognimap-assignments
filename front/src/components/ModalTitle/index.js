@@ -4,11 +4,12 @@ import './style.css';
 
 const ModalTitle = (props) => {
 
-    const {modalNumber} = props; 
+    const {handleModalClosure} = props; 
 
     return (
-        <header className="modal-title">
+        <header className="modal-header">
             <h2>Titre</h2>
+            <icon className="modal-close" alt="Modal close button" onClick={handleModalClosure}>&times;</icon>
         </header>
     );
 }

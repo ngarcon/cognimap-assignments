@@ -5,5 +5,17 @@
     border: none; 
     padding: .5em .9em; 
     border-radius: 0.1em; 
-    margin: 1em 0 2em 0;
+    margin: 0.5em;
+    
+}
+
+.btn-modal--cancel {
+    background-color: #fff; 
+    color: #555; 
+    border: 1px solid #aaa;
+}
+
+.footer-modal {
+    display: flex; 
+    justify-content: flex-end;
 }

@@ -7,9 +7,9 @@ const ModalButtons = (props) => {
     const {modalNumber} = props; 
 
     return (
-        <button className="btn-modal">
-            Ouvrir la modale {modalNumber}
-        </button>
+        <main className="modal-content">
+            Content of the modal
+        </main>
     );
 }
 

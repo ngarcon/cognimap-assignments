@@ -13,9 +13,14 @@ function Card (props) {
 
   const {modalNumber} = props; 
 
+  const handleModalOpening = (event) => {
+    const modal = document.querySelector('.modal-background'); 
+    modal.classList.toggle('active'); 
+}
+
   return (
     <div className="Card">
-        <CardButton modalNumber={modalNumber}/>
+        <CardButton modalNumber={modalNumber} handleModalOpening={handleModalOpening}/>
         <CardLabel />
         <CardFooter />
     </div>
