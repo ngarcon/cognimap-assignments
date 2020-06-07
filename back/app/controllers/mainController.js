@@ -25,14 +25,7 @@ const mainController = {
 
             await fs.writeFileSync(`./app/files/${fileName}.txt`, message); 
 
-            /*
-            fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
-                if (err) return console.log(err);
-                console.log('Hello World > helloworld.txt');
-              });
-            */
-
-            res.send('done'); 
+            res.send({result: 'done'}); 
         } catch (error) {
             console.log(error);
         }

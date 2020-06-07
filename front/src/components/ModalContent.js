@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './style.css'; 
+import './ModalContent.scss'; 
 
-const ModalButtons = (props) => {
+const ModalContent = (props) => {
 
     const {modalNumber} = props; 
 
@@ -13,4 +13,4 @@ const ModalButtons = (props) => {
     );
 }
 
-export default ModalButtons;
+export default ModalContent;

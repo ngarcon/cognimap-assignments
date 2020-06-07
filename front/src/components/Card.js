@@ -1,12 +1,12 @@
 import React from 'react';
 
 // Components
-import CardButton from '../CardButton'; 
-import CardLabel from '../CardLabel'; 
-import CardFooter from '../CardFooter'; 
+import CardButton from './CardButton'; 
+import CardLabel from './CardLabel'; 
+import CardFooter from './CardFooter'; 
 
 //Style 
-import './Card.css';
+import './Card.scss';
 
 
 function Card (props) {

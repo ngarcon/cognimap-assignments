@@ -1,11 +1,11 @@
 import React from 'react';
 
 // Components
-import ModalTitle from '../ModalTitle'; 
-import ModalContent from '../ModalContent'; 
-import ModalButtons from '../ModalButtons'; 
+import ModalTitle from './ModalTitle'; 
+import ModalContent from './ModalContent'; 
+import ModalButtons from './ModalButtons'; 
 
-import './style.css'; 
+import './Modal.scss'; 
 
 const Modal = () => {
     

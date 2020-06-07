@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style.css'; 
+import './CardLabel.scss'; 
 
 const CardLabel = () => {
     return (

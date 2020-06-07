@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Card from '../Card'; 
-import Modal from '../Modal'; 
+import Card from './Card'; 
+import Modal from './Modal'; 
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

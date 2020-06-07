@@ -10,6 +10,6 @@ router.get('/api/hello', mainController.sayHello);
 
 router.post('/api/writeFile/:fileName', mainController.writeInFile); 
 
-router.use(mainController.notFound)
+router.use(mainController.getMain)
 
 module.exports = router; 

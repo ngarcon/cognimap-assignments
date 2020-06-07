@@ -14,6 +14,7 @@ app.use(express.urlencoded({extended: true}));
 // Bodyparser for json type data
 app.use(express.json()); 
 
+
 app.use(express.static('public'));
 
 // App router
