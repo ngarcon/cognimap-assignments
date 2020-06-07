@@ -1,15 +1,18 @@
+.modal {
 
-.modal-header h2 {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.modal-close {
-    display: block;
-    position: absolute;
-    top:0;
-    right:1rem;;
-    font-size:3rem;
-    font-weight: 100;
-    cursor: pointer;
+    &-header h2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-left:1rem; 
+    }
+    
+    &-close {
+        display: block;
+        position: absolute;
+        top:0;
+        right:1rem;;
+        font-size:3rem;
+        font-weight: 100;
+        cursor: pointer;
+    }
 }

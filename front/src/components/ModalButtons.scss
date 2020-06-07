@@ -1,19 +1,16 @@
+@import 'locals';
+
 .btn-modal {
-    background-color: #2a9ce7; 
-    color: #fff; 
-    font-weight: bold; 
-    border: none; 
-    padding: .5em .9em; 
-    border-radius: 0.1em; 
-    margin: 0.5em;
+    @extend %button;
+    @extend %btn-primary;
+    margin: .7em;
+    margin-right: 0;
     
+    &--cancel {
+        @extend %btn-standard;
+    }
 }
 
-.btn-modal--cancel {
-    background-color: #fff; 
-    color: #555; 
-    border: 1px solid #aaa;
-}
 
 .footer-modal {
     display: flex; 

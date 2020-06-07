@@ -7,7 +7,7 @@ const CardButton = (props) => {
     const {modalNumber, handleModalOpening} = props; 
     
     return (
-        <button className="btn-modal" onClick={handleModalOpening}>
+        <button className="btn-card" onClick={handleModalOpening}>
             Ouvrir la modale {modalNumber}
         </button>
     );

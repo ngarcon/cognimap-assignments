@@ -1,7 +1,10 @@
-.card-header-container {
-    padding-bottom: 2rem;
-}
+.card-header {
 
-.card-header--subtitle {
-    color: #555;
+    &-container {
+        padding-bottom: 2rem;
+    }
+    
+    &--subtitle {
+        color: #555;
+    }
 }
