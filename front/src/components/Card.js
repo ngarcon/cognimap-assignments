@@ -11,12 +11,7 @@ import './Card.scss';
 
 function Card (props) {
 
-  const {modalNumber} = props; 
-
-  const handleModalOpening = (event) => {
-    const modal = document.querySelector('.modal-background'); 
-    modal.classList.toggle('active'); 
-}
+  const {modalNumber, handleModalOpening} = props; 
 
   return (
     <div className="Card">

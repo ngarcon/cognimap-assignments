@@ -7,14 +7,15 @@ import ModalButtons from './ModalButtons';
 
 import './Modal.scss'; 
 
-const Modal = () => {
+const Modal = (props) => {
+
+    const {handleModalClosure, active} = props; 
+
+    let modalClassName = "modal-background"; 
+    modalClassName += (active) ? " active" : ""; 
     
-    const handleModalClosure = (event) => {
-        const modal = event.target.closest('.modal-background'); 
-        modal.classList.toggle('active'); 
-    }
     return (
-        <div className="modal-background">
+        <div className={modalClassName}>
             <div className="modal-container">
                 <ModalTitle handleModalClosure={handleModalClosure}/>
                 <hr/>
